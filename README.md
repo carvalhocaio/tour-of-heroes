@@ -1,24 +1,36 @@
-# README
+# Tour Of Heroes API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby on Rails 6 with API
 
-Things you may want to cover:
+|       |         |
+| ----- | ------- |
+| Ruby  | 2.7.3   |
+| Rails | 6.1.4.4 |
 
-* Ruby version
+## Initial settings for run project
 
-* System dependencies
+**install the dependencies**
 
-* Configuration
+```bash
+bundle install
+```
 
-* Database creation
+**create the databases of development and test**
 
-* Database initialization
+```bash
+rails db:create
+```
 
-* How to run the test suite
+**create the tables**
 
-* Services (job queues, cache servers, search engines, etc.)
+```bash
+rails db:migrate
+```
 
-* Deployment instructions
+## Run project
 
-* ...
+```bash
+rails s
+```
+
+---
