@@ -2,10 +2,8 @@
 
 Ruby on Rails 6 with API
 
-|       |         |
-| ----- | ------- |
-| Ruby  | 2.7.3   |
-| Rails | 6.1.4.4 |
+Ruby => 2.7.3  
+Rails => 6.1.4.4
 
 ## Initial settings for run project
 
